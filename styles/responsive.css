@@ -1,0 +1,395 @@
+@media screen and (max-width: 960px) and (min-width: 800px) {
+    nav {
+        height: 400px;
+        display: flex; 
+          flex-direction:column;
+      }
+  
+      nav ul {
+          flex-direction:column;        
+      }
+  
+      nav ul li {
+          padding:0;
+      }
+  
+      nav ul li a {
+          padding:8px;
+      }
+
+      nav .logo {
+        position: static;
+        margin: auto;
+    }
+
+      .contain {
+        flex-direction: column;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .boxes {
+    width: 700px;
+    height: 290px;
+    padding: 30px;
+    margin: 70px;
+    transition: all 400ms;
+}
+    .boxes:hover {
+            transform: translateX(-15px);
+    }
+
+    #para p {
+        font-size: 2rem;
+    }
+
+
+    .containProject {
+        flex-direction: column;
+    }
+
+    .image-wraper {
+        flex-direction: column-reverse;
+    }
+
+    .project {
+        height: 700px;
+        width: 400px;
+    }
+
+    .image-wraper img {
+        height: 300px;
+        width: 400px;
+        transform: translateY(165px);
+    }
+
+    .description {
+        height: 300px;
+        width: 400px;
+        transform: translateY(165px);
+    }
+
+    .description-title {
+        font-size: 2rem;
+    }
+
+    .description-line {
+        font-size: 1rem;
+    }
+
+    .card {
+        margin: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 1260px) and (min-width: 960px) {
+    .contain {
+        flex-direction: column;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .boxes {
+    width: 700px;
+    height: 290px;
+    padding: 30px;
+    margin: 70px;
+    transition: all 400ms;
+}
+    .boxes:hover {
+            transform: translateX(-15px);
+    }
+
+    .containProject {
+        flex-direction: column;
+    }
+
+    .image-wraper {
+        flex-direction: column-reverse;
+    }
+
+    .project {
+        height: 900px;
+        width: 820px;
+    }
+
+    .image-wraper img {
+        height: 500px;
+        width: 820px;
+        transform: translateY(165px);
+    }
+
+    .description {
+        height: 500px;
+        width: 820px;
+        transform: translateY(165px);
+    }
+
+    .description-title {
+        font-size: 2.3rem;
+    }
+
+    .description-line {
+        font-size: 1.3rem;
+    }
+
+    .card {
+        margin: auto;
+    }
+    
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+    nav {
+        height: 400px;
+        display: flex; 
+          flex-direction:column;
+      }
+  
+      nav ul {
+          flex-direction:column;        
+      }
+  
+      nav ul li {
+          padding:0;
+      }
+  
+      nav ul li a {
+          padding:8px;
+      }
+
+      nav .logo {
+        position: static;
+        margin: auto;
+    }
+
+    #home {
+        height: 1000px;
+    }
+
+    .head {
+        height: 880px;
+        width: 400px;
+    }
+
+    .contain {
+        flex-direction: column;
+    }
+
+    .boxes {
+        width: 400px;
+        height: 500px;
+        padding: 20px;
+        margin: 50px;
+    }
+
+    .second-contain {
+        width: 400px;
+        flex-direction: column;
+        margin:150px auto;
+        border: 5px solid rgb(0, 0, 0);
+        border-radius: 15px;
+    }
+
+    .logos {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 200px;
+        margin: 20px 97px;
+    }
+
+    #para p {
+        font-size: 1.5rem;
+    }
+
+    #para {
+        width: 350px;
+        height: 480px;
+        padding: 15px;
+        margin: 38px;
+    }
+
+    #forms{
+        margin-top: 34px;
+    }
+    
+    .containProject {
+        flex-direction: column;
+    }
+
+    .image-wraper {
+        flex-direction: column-reverse;
+    }
+
+    .project {
+        height: 700px;
+        width: 400px;
+    }
+
+    .image-wraper img {
+        height: 300px;
+        width: 400px;
+        transform: translateY(165px);
+    }
+
+    .description {
+        height: 300px;
+        width: 400px;
+        transform: translateY(165px);
+    }
+
+    .description-title {
+        font-size: 2rem;
+    }
+
+    .description-line {
+        font-size: 1rem;
+    }
+
+    .card {
+        margin: auto;
+    }
+    
+}
+
+@media screen and (max-width: 600px) and (min-width: 350px) {
+    nav {
+        height: 400px;
+        display: flex; 
+          flex-direction:column;
+      }
+  
+      nav ul {
+          flex-direction:column;        
+      }
+  
+      nav ul li {
+          padding:0;
+      }
+  
+      nav ul li a {
+          padding:8px;
+      }
+
+      nav .logo {
+        position: static;
+        margin: auto;
+    }
+
+    #home {
+        height: 1400px;
+    }
+
+
+    .head {
+        height: 1240px;
+        width: 300px;
+    }
+
+    .btn-sec {
+        margin: 40px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .btn-primary, .btn-secondary {
+        margin: 10px;
+        padding: 20px;
+        border: none;
+        border-radius: 9px;
+        cursor: pointer;
+        transition: all 300ms;
+    }
+
+    .contain {
+        flex-direction: column;
+    }
+
+    .boxes {
+        width: 300px;
+        height: 640px;
+        padding: 10px;
+        margin: 50px;
+    }
+
+    .second-contain {
+        width: 300px;
+        flex-direction: column;
+        margin:150px auto;
+        border: 5px solid #CF0A0A;
+        border-radius: 15px;
+    }
+
+    .logos {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 170px;
+        margin: 20px 50px;
+    }
+
+    #contact {
+        height: 1500px;
+    }
+
+    .contactsec {
+        flex-direction: column;
+    }
+
+    #para p {
+        font-size: 2.2rem;
+    }
+
+    #para {
+        width: 300px;
+        height: 480px;
+        padding: 15px;
+        margin: 38px auto;
+    }
+
+    #forms {
+        margin: 48px auto;
+        padding: 15px;
+       width: 300px;
+    }
+
+    .containProject {
+        flex-direction: column;
+    }
+
+    .image-wraper {
+        flex-direction: column-reverse;
+    }
+
+    .project {
+        height: 400px;
+        width: 300px;
+    }
+
+    .image-wraper img {
+        height: 200px;
+        width: 300px;
+
+    }
+
+    .description {
+        height: 200px;
+        width: 300px;
+    }
+
+    .description-title {
+        font-size: 1.5rem;
+    }
+
+    .description-line {
+        font-size: .8rem;
+    }
+
+    .card {
+        margin: auto;
+    }
+}
+
